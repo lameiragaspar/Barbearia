@@ -1,0 +1,10 @@
+.paiDark{
+    background-color: #252323;
+}
+.paiDark p,
+.paiDark h1{
+    color: #ffffff;
+}
+.paiDark .tam-max img.logo{
+    filter: invert();
+}

@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+/*Estilos globais*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
+/*Fim dos estilos globais*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+header{
+  background-color: #fff;
+  padding:0px 10px;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tam-max{
+  max-width: 1024px;
+  padding: 0px 20px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+}
+header .tam-max img.logo{
+  height: 100px;
+}
+header .tam-max button{
+    width: 82px;
+    height: 40px;
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid #B2987D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .tam-max button:hover{
+    cursor: pointer;
+}
+header .tam-max .imagem{
+    width: 38%;
+    padding-top: 3px;
+}
+.imagem img.imgButton{
+    width: 70%;
+    height: auto;
+}
+header .tam-max button p{
+    font-weight: bold;
+    font-size: 13px;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 306px) {
+  header .tam-max{
+    flex-direction: column-reverse;
+  }
+  header .tam-max button{
+    margin-top: 20px;
+    width: 70px;
+    height: 38px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

@@ -1,0 +1,34 @@
+main{
+    width: 100%;
+    padding-bottom: 20px;
+}
+main .banner{
+    width: 100%;
+    height: 200px;
+    background: url(/public/assets/banner-barbearia.jpg) no-repeat center center ;
+    background-size: cover;
+}
+main .conteudo .tam-max{
+    padding: 38px 0 20px;
+    text-align: center;
+    flex-direction: column;
+}
+.conteudo .tam-max h1{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+.conteudo .tam-max p{
+    font-size: 15px;
+    max-width: 800px;
+    padding: 0 20px;
+}
+.conteudo .tam-max p:nth-child(2){
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.conteudo .tam-max span{
+    font-family: 'Great Vibes', cursive;
+    color: #B2987D;
+    font-size: 36px;
+    margin-top: 40px;
+}
